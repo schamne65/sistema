@@ -1,0 +1,3 @@
+ReWriteEngine On
+Options All -Indexes
+ReWriteRule ^([a-zA-Z0-9/ñÑ-]+)$ index.php?vistas=$1
